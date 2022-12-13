@@ -1,0 +1,1248 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600; 1.700;1.800 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.mains{
+    width: 100%;
+    height: 389.2vh;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(./Assets/background.png);
+
+}
+
+header section {
+    width: 90vw;
+    height: 80vh;
+    position: absolute;
+    left: -1vw;
+    top: 4vh;
+}
+
+.starImg {
+    position: absolute;
+    width: 25vw;
+    height: 13vh;
+    top: 43vh;
+    left: 18vw;
+}
+
+.kyloImg {
+    position: absolute;
+    width: 69vw;
+    height: 100vh;
+    top: -1vh;
+    left: 10.7vw;
+    z-index: 1;
+}
+
+.warsImg {
+    position: absolute;
+    width: 25vw;
+    height: 13vh;
+    top: 43vh;
+    left: 64.5vw;
+}
+
+.cardLegiao {
+    display: flex;
+    width: 15vw;
+    height: 15vh;
+    flex-direction: column;
+    position: absolute;
+    top: 70vh;
+    left: 80vw;
+}
+
+.titleP {
+    font-size: 3em;
+}
+
+.Title {
+    font-size: 3em;
+    width: 15vw;
+}
+
+.linhaCard1 {
+    position: relative;
+    top: 1vh;
+    width: 12vw;
+    height: 0.5vh;
+}
+
+.Informacoes {
+    display: flex;
+    position: relative;
+    font-size: 2.5em;
+    left: 0.01vw;
+    top: 2vh;
+    width: 10vw;
+    height: 4vh;
+}
+
+.buttons button {
+    position: relative;
+    top: -0.7vh;
+    left: 1vw;
+    width: 1vw;
+    height: 2.5vh;
+}
+
+.main1 {
+    background-image: url(./Assets/backgroundM1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 35vw;
+    height: 115vh;
+}
+
+.cardMain1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(./Assets/cardMain1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 1;
+    left: 15vw;
+    top: 75vh;
+    width: 17vw;
+    height: 50vh;
+    color: white;
+}
+
+.titleCard1 {
+    width: 9vw;
+    font-size: 3em;
+}
+
+.descriptionCard1 {
+    position: relative;
+    left: 0.5vw;
+    width: 16vw;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.btnDownload {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.0) 50%);
+    cursor: pointer;
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.6em;
+}
+
+.dateUpdate {
+    position: relative;
+    top: 3vh;
+    left: 4vw;
+}
+
+.cardMain1-2 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 15vw;
+    top: 111.1vh;
+    left: 55vw;
+}
+
+.titleMain1Card-2 {
+    position: relative;
+    left: -0.5vw;
+    top: -4vh;
+    font-size: 2em;
+    text-align: right;
+}
+
+.linhaCardMain1 {
+    position: relative;
+    left: 4.7vw;
+    top: -2.5vh;
+    width: 10vw;
+    height: 0.5vh;
+}
+
+.descriptionCardMain1-2 {
+    font-size: 1.45em;
+    position: relative;
+    top: -1vh;
+    left: -12.5vw;
+    width: 27vw;
+    text-align: right;
+}
+
+.imagemBattlefront {
+    position: absolute;
+    width: 17vw;
+    height: 20vh;
+    top: -6vh;
+    left: 15vw;
+}
+
+@media (max-width: 390px) {
+    .mains{
+        width: 100%;
+        height: 345vh;
+    }
+    header {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 20vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url(./Assets/background.png);
+    }
+
+    header section {
+        width: 99vw;
+        height: 14.5vh;
+        position: absolute;
+        left: 0.4vw;
+        top: 3vh;
+    }
+
+    .starImg {
+        position: absolute;
+        width: 20vw;
+        height: 2.5vh;
+        top: 7.7vh;
+        left: 23vw;
+    }
+
+    .kyloImg {
+        position: absolute;
+        width: 70vw;
+        height: 25vh;
+        top: -3.5vh;
+        left: 10vw;
+        z-index: 1;
+    }
+
+    .warsImg {
+        position: absolute;
+        width: 20vw;
+        height: 2.5vh;
+        top: 7.7vh;
+        left: 65vw;
+    }
+
+    .cardLegiao {
+        display: flex;
+        width: 15vw;
+        height: 8vh;
+        flex-direction: column;
+        position: absolute;
+        top: 15vh;
+        left: 78vw;
+    }
+
+    .titleP {
+        font-size: 0.5em;
+    }
+
+    .Title {
+        font-size: 0.5em;
+        width: 15vw;
+    }
+
+    .linhaCard1 {
+        position: relative;
+        top: 1vh;
+        width: 12vw;
+        height: 0.25vh;
+    }
+
+    .Informacoes {
+        display: flex;
+        position: relative;
+        font-size: 0.7em;
+        left: 0.01vw;
+        top: 2vh;
+        width: 20vw;
+        height: 4vh;
+    }
+
+    .buttons button {
+        position: relative;
+        top: -0.5vh;
+        left: 1vw;
+        width: 3vw;
+        height: 2.3vh;
+    }
+
+    .main1 {
+        background-image: url(./Assets/backgroundM1.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 75vw;
+        height: 60vh;
+    }
+
+    .cardMain1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url(./Assets/cardMain1.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        z-index: 1;
+        left: 40vw;
+        top: 25vh;
+        width: 50vw;
+        height: 40vh;
+        color: white;
+    }
+
+    .titleCard1 {
+        width: 30vw;
+        font-size: 1.5em;
+    }
+
+    .descriptionCard1 {
+        position: relative;
+        left: 0.5vw;
+        width: 40vw;
+        font-size: 0.8em;
+        font-weight: lighter;
+    }
+
+    .btnDownload {
+        text-decoration: none;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.0) 50%);
+        cursor: pointer;
+        width: 30vw;
+        height: 5vh;
+        font-size: 0.7em;
+    }
+
+    .dateUpdate {
+        position: relative;
+        width: 34vw;
+        top: 1vh;
+        left: 2vw;
+        font-size: 0.7em;
+    }
+
+    .cardMain1-2 {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        width: 40vw;
+        height: 35vh;
+        top: 73vh;
+        left: 50vw;
+    }
+
+    .titleMain1Card-2 {
+        position: relative;
+        left: 10vw;
+        top: 11vh;
+        font-size: 0.7em;
+        text-align: right;
+        width: 30vw;
+    }
+
+    .linhaCardMain1 {
+        position: relative;
+        left: 10vw;
+        top: 11.7vh;
+        width: 30vw;
+        height: 0.5vh;
+    }
+
+    .descriptionCardMain1-2 {
+        font-size: 1em;
+        position: relative;
+        top: 13vh;
+        left: -40vw;
+        width: 80vw;
+        text-align: right;
+    }
+
+    .imagemBattlefront {
+        position: absolute;
+        left: -10.2vw;
+        top: -11vw;
+        width: 50vw;
+        height: 15vh;
+    }
+
+    .LinhaFinalMain1 {
+        position: absolute;
+        top: 20vh;
+        left: -42vw;
+        width: 75vw;
+        height: 0.5vh;
+    }
+
+    .estruturaDeJogo {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 30vw;
+        height: 70vh;
+        left: 30vw;
+        top: 45vh;
+        justify-content: space-evenly;
+    }
+    .titleMain2 {
+        position: relative;
+        left: 45vw;
+        top: 60vh;
+        width: 18vw;
+        height: 12vh;
+        text-align: right;
+        font-size: 4em;
+    }
+
+}
+
+.LinhaFinalMain1 {
+    position: absolute;
+    top: 20vh;
+    left: -42vw;
+    width: 75vw;
+    height: 0.5vh;
+}
+
+.estruturaDeJogo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 30vw;
+    height: 70vh;
+    left: 30vw;
+    top: 45vh;
+    justify-content: space-evenly;
+}
+
+.titleMain2 {
+    position: relative;
+    left: 42vw;
+    top: 60vh;
+    width: 18vw;
+    height: 12vh;
+    text-align: right;
+    font-size: 4em;
+}
+
+.menuNavegacaoMain {
+    position: relative;
+    top: -5vh;
+    left: -10vw;
+    width: 30vw;
+    height: 20vh;
+    text-align: right;
+    font-size: 2em;
+}
+
+.menuNavegacaoMain li {
+    margin-top: 2vh;
+}
+
+.menuNavegacaoMain a {
+    color: black;
+}
+.menuNavegacaoMain a:hover {
+    background-color: tomato;
+}
+
+.imgLord {
+    position: relative;
+    left: 8vw;
+    width: 70vw;
+    height: 70vh;
+}
+
+.imgRey {
+    position: relative;
+    left: -4vw;
+    width: 90vw;
+    height: 60vh;
+}
+
+@media (max-width: 390px) {
+    .LinhaFinalMain1 {
+        position: absolute;
+        top: 34vh;
+        left: -42vw;
+        width: 85vw;
+        height: 0.5vh;
+    }
+
+    .estruturaDeJogo {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 30vw;
+        height: 40vh;
+        left: 30vw;
+        top: 70vh;
+        justify-content: space-evenly;
+    }
+
+    .titleMain2 {
+        position: relative;
+        left: 45vw;
+        top: 94vh;
+        width: 30vw;
+        height: 5vh;
+        text-align: right;
+        font-size: 1em;
+    }
+
+    .menuNavegacaoMain {
+        position: relative;
+        top: 14vh;
+        left: -9vw;
+        width: 60vw;
+        height: 20vh;
+        text-align: right;
+        font-size: 0.65em;
+    }
+
+    .menuNavegacaoMain li {
+        margin-top: 1.2vh;
+    }
+
+    .imgLord {
+        position: relative;
+        top: 12vh;
+        left: 17vw;
+        width: 40vw;
+        height: 20vh;
+    }
+
+    .imgRey {
+        position: relative;
+        top: 12vh;
+        left: -10.2vw;
+        width: 35vw;
+        height: 20vh;
+    }
+
+    .main2 {
+        width: 80%;
+        height: 110vh;
+    }
+}
+
+.main2 {
+    width: 80%;
+    height: 115vh;
+}
+
+.Main3 {
+    background-color: #2D2D2D;
+    width: 100vw;
+    height: 215vh;
+}
+
+.Main3 h1 {
+    color: white;
+    position: relative;
+    top: 20vh;
+    width: 15vw;
+    font-size: 4em;
+    left: 10vw;
+}
+
+.mainAtributos {
+    display: flex;
+    position: relative;
+    top: 25vh;
+    left: 5vw;
+    width: 87vw;
+    height: 49vh;
+}
+
+.atributo1 {
+    cursor: pointer;
+    width: 40vw;
+    height: 48.2vh;
+}
+
+.atributo2 {
+    cursor: pointer;
+    width: 23vw;
+    height: 24vh;
+}
+
+.atributo3 {
+    cursor: pointer;
+    width: 23vw;
+    height: 24vh;
+}
+
+.atributo4 {
+    cursor: pointer;
+    width: 23vw;
+    height: 24vh;
+}
+
+.atributo5 {
+    cursor: pointer;
+    width: 23vw;
+    height: 24vh;
+}
+
+.hierarquia {
+    width: 87.2vw;
+    height: 97vh;
+    position: relative;
+    left: 5vw;
+    top: 30vh;
+}
+
+.hierarquiaImg {
+    width: 87vw;
+    height: 89vh;
+}
+
+.descriptionHierarquia {
+    position: relative;
+    top: 1vh;
+    left: 45vw;
+    width: 42vw;
+    color: white;
+    height: 7vh;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.main4 {
+    display: flex;
+    align-items: center;
+    width: 98.5vw;
+    height: 30vw;
+}
+
+.comoJogar {
+    position: relative;
+    width: 20vw;
+    height: 6vh;
+    left: 47vw;
+    top: 43vh;
+    font-size: 4em;
+    color: white;
+}
+
+.stormImg {
+    position: relative;
+    left: 11vw;
+    top: -10vh;
+    width: 27vw;
+    height: 83vh;
+}
+
+.div-Download {
+    position: relative;
+    left: 13vw;
+    top: -5vh;
+    color: black;
+    width: 15vw;
+    height: 20vh;
+}
+
+.div-Download h2 {
+    text-align: center;
+    width: 14.9vw;
+    height: 4vh;
+    font-size: 3em;
+}
+
+.btn-Download {
+    position: relative;
+    top: 3vh;
+    left: 1.5vw;
+    text-decoration: none;
+    font-size: 3em;
+    padding: 10px;
+    width: 60%;
+    color: white;
+    background: linear-gradient(to right, tomato 50%, black 50%) right;
+    background-size: 200%;
+    transition: 0.5s;
+}
+
+.div-Download a:hover {
+    background-position: left;
+}
+
+.div-Download p {
+    position: relative;
+    top: 7vh;
+    text-align: center;
+    font-size: 1.5em;
+    width: 15vw;
+    height: 10vh;
+}
+
+.linha7 {
+    width: 5vw;
+    height: 0.5vh;
+    position: relative;
+    left: 5vw;
+    top: 3vh;
+}
+
+.div-Escolher {
+    position: relative;
+    left: 17vw;
+    top: -5vh;
+    color: black;
+    width: 15vw;
+    height: 20vh;
+}
+
+.div-Escolher h2 {
+    text-align: center;
+    width: 14.9vw;
+    height: 4vh;
+    font-size: 3em;
+}
+
+.btn-Escolher {
+    position: relative;
+    top: 3vh;
+    left: 1.8vw;
+    text-decoration: none;
+    font-size: 3em;
+    padding: 10px;
+    width: 60%;
+    color: white;
+    background: linear-gradient(to right, tomato 50%, black 50%) right;
+    background-size: 200%;
+    transition: 0.5s;
+}
+
+.div-Escolher a:hover {
+    background-position: left;
+}
+
+.div-Escolher p {
+    position: relative;
+    top: 7vh;
+    text-align: center;
+    font-size: 1.5em;
+    width: 15vw;
+    height: 10vh;
+}
+
+.linha8 {
+    width: 5vw;
+    height: 0.5vh;
+    position: relative;
+    left: 5vw;
+    top: 3vh;
+}
+
+.div-Explorar {
+    position: relative;
+    left: 20vw;
+    top: -5vh;
+    color: black;
+    width: 15vw;
+    height: 20vh;
+}
+
+.div-Explorar h2 {
+    text-align: center;
+    width: 14.9vw;
+    height: 4vh;
+    font-size: 3em;
+}
+
+.btn-Explorar {
+    position: relative;
+    top: 3vh;
+    left: 1.8vw;
+    text-decoration: none;
+    font-size: 3em;
+    padding: 10px;
+    width: 60%;
+    color: white;
+    background: linear-gradient(to right, tomato 50%, black 50%) right;
+    background-size: 200%;
+    transition: 0.5s;
+}
+
+.div-Explorar a:hover {
+    background-position: left;
+}
+
+.div-Explorar p {
+    position: relative;
+    top: 7vh;
+    text-align: center;
+    font-size: 1.5em;
+    width: 15vw;
+    height: 10vh;
+}
+
+.linha9 {
+    width: 5vw;
+    height: 0.5vh;
+    position: relative;
+    left: 5vw;
+    top: 3vh;
+}
+footer{
+    background-color: #FF5A56;
+    width: 70%;
+    height: 90vh;
+}
+.imgDarth{
+    width:40vw;
+    height: 100vh;
+    position: relative;
+    top: -15vh;
+    left: 55vw;
+}
+.textsFooter{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -80vh;
+}
+.textApp{
+    width: 50vw;
+    height: 40vh;
+}
+.textFinally{
+    width: 50vw;
+    height: 40vh;
+}
+.titleApp{
+    width: 35vw;
+    height: 6vh;
+    text-align: center;
+    position: relative;
+    top: -5vh;
+    font-size: 4em;
+    color: white;
+}
+.textComunity{
+    position: relative;  
+    width: 34vw;
+    height: 10vh;
+    font-size: 1.9em;
+    color: white;
+    text-align: left;
+    left: 10vw;
+    top: -2vh;
+}
+.iconGplay{
+    position: relative;
+    left: 10vw;
+    width: 14vw;
+    height: 8vh;
+}
+.iconAppStore{
+    position: relative;
+    left: 12vw;
+    width: 14vw;
+    height: 8vh;
+}
+.linha10{
+    position: relative;
+    width: 20vw;
+    left: -10.2vw;
+    height: 0.5vh;
+    top: 5vh;
+}
+.textFinally{
+    width: 40vw;
+    height: 30vh;
+    position: relative;
+    top: 11vh;
+    left: 10vw;
+}
+.imgStarWars{
+    position: relative;
+    top: -2vh;
+    width: 10vw;
+    height: 10vh;
+}
+.textPolicies{
+    font-size: 1.9em;
+    color: white;
+    width: 40vw;
+    height: 3vh;
+}
+@media (max-width:390px) {
+    .Main3 {
+        background-color: #2D2D2D;
+        width: 100vw;
+        height: 175vh;
+    }
+
+    .Main3 h1 {
+        color: white;
+        position: relative;
+        top: 10vh;
+        width: 50vw;
+        font-size: 2em;
+        left: 28vw;
+    }
+
+    .mainAtributos {
+        position: relative;
+        flex-direction: column;
+        top: 15vh;
+        left: 15vw;
+        width: 72vw;
+        height: 102vh;
+    }
+
+    .mainAtributos div {
+        width: 70vw;
+        height: 20vh;
+    }
+
+    .atributo1 {
+        cursor: pointer;
+        width: 70vw;
+        height: 20vh;
+    }
+
+    .atributo2 {
+        cursor: pointer;
+        width: 70vw;
+        height: 20vh;
+    }
+
+    .atributo3 {
+        cursor: pointer;
+        width: 70vw;
+        height: 20vh;
+    }
+
+    .atributo4 {
+        cursor: pointer;
+        width: 70vw;
+        height: 20vh;
+    }
+
+    .atributo5 {
+        cursor: pointer;
+        width: 70vw;
+        height: 20vh;
+    }
+
+    .hierarquia {
+        width: 100vw;
+        height: 99vh;
+        position: relative;
+        left: -1vw;
+        top: 20vh;
+    }
+
+    .hierarquiaImg {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .descriptionHierarquia {
+        position: relative;
+        top: 1vh;
+        left: 5vw;
+        width: 93vw;
+        color: white;
+        height: 8vh;
+        font-size: 0.7em;
+        text-align: right;
+    }
+
+    .comoJogar {
+        position: relative;
+        width: 50vw;
+        height: 5vh;
+        left: 44vw;
+        top: -38vh;
+        font-size: 1.3em;
+        color: white;
+    }
+
+    .main4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 116vw;
+    }
+
+    .stormImg {
+        position: relative;
+        left: -39vw;
+        top: -9vh;
+        width: 90vw;
+        height: 80vh;
+    }
+
+    .div-Download {
+        position: relative;
+        left: 20vw;
+        top: -62vh;
+        color: black;
+        width: 50vw;
+        height: 70vh;
+    }
+
+    .div-Download h2 {
+        text-align: center;
+        width: 50vw;
+        height: 4vh;
+        font-size: 1.5em;
+    }
+
+    .btn-Download {
+        position: relative;
+        top: 2vh;
+        left: 10vw;
+        text-decoration: none;
+        font-size: 1em;
+        padding: 10px;
+        width: 60%;
+        color: white;
+        background: linear-gradient(to right, tomato 50%, black 50%) right;
+        background-size: 200%;
+        transition: 0.5s;
+    }
+
+    .div-Download a:hover {
+        background-position: left;
+    }
+
+    .div-Download p {
+        position: relative;
+        top: 4vh;
+        text-align: center;
+        font-size: 1.2em;
+        width: 50vw;
+        height: 7vh;
+    }
+
+    .linha7 {
+        width: 30vw;
+        height: 0.5vh;
+        position: relative;
+        left: 10vw;
+        top: 2vh;
+    }
+
+    .div-Escolher {
+        position: relative;
+        left: 20vw;
+        top: -59vh;
+        color: black;
+        width: 50vw;
+        height: 70vh;
+    }
+
+    .div-Escolher h2 {
+        text-align: center;
+        width: 50vw;
+        height: 4vh;
+        font-size: 1.5em;
+    }
+
+    .btn-Escolher {
+        position: relative;
+        top: 2vh;
+        left: 10vw;
+        text-decoration: none;
+        font-size: 1em;
+        padding: 10px;
+        width: 60%;
+        color: white;
+        background: linear-gradient(to right, tomato 50%, black 50%) right;
+        background-size: 200%;
+        transition: 0.5s;
+    }
+
+    .div-Escolher a:hover {
+        background-position: left;
+    }
+
+    .div-Escolher p {
+        position: relative;
+        top: 4vh;
+        text-align: center;
+        font-size: 1.2em;
+        width: 50vw;
+        height: 7vh;
+    }
+
+    .linha8 {
+        width: 30vw;
+        height: 0.5vh;
+        position: relative;
+        left: 10vw;
+        top: 2.5vh;
+    }
+    .div-Explorar {
+        position: relative;
+        left: 20vw;
+        top: -57vh;
+        color: black;
+        width: 50vw;
+        height: 70vh;
+    }
+
+    .div-Explorar h2 {
+        text-align: center;
+        width: 50vw;
+        height: 4vh;
+        font-size: 1.5em;
+    }
+
+    .btn-Explorar {
+        position: relative;
+        top: 2vh;
+        left: 10vw;
+        text-decoration: none;
+        font-size: 1em;
+        padding: 10px;
+        width: 60%;
+        color: white;
+        background: linear-gradient(to right, tomato 50%, black 50%) right;
+        background-size: 200%;
+        transition: 0.5s;
+    }
+
+    .div-Explorar a:hover {
+        background-position: left;
+    }
+
+    .div-Explorar p {
+        position: relative;
+        top: 4vh;
+        text-align: center;
+        font-size: 1.2em;
+        width: 50vw;
+        height: 7vh;
+    }
+
+    .linha9 {
+        width: 30vw;
+        height: 0.5vh;
+        position: relative;
+        left: 10vw;
+        top: 1vh;
+    }
+    footer{
+        background-color: #FF5A56;
+        width: 100%;
+        height: 90vh;
+    }
+    .imgDarth{
+        width:90vw;
+        height: 60vh;
+        position: relative;
+        top: 69vh;
+        left: 4vw;
+    }
+    .textsFooter{
+        width: 50vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -54vh;
+    }
+    .textApp{
+        width: 98vw;
+        height: 40vh;
+    }
+    .textFinally{
+        width: 50vw;
+        height: 40vh;
+    }
+    .titleApp{
+        width: 97vw;
+        height: 6vh;
+        text-align: center;
+        position: relative;
+        top: -3vh;
+        font-size: 2.4em;
+        color: white;
+    }
+    .textComunity{
+        position: relative;  
+        width: 75vw;
+        height: 15vh;
+        font-size: 1.2em;
+        color: white;
+        text-align: left;
+        left: 10vw;
+        top: -2vh;
+    }
+    .iconGplay{
+        position: relative;
+        left: 8vw;
+        width: 40vw;
+        height: 6vh;
+    }
+    .iconAppStore{
+        position: relative;
+        left: 12vw;
+        width: 40vw;
+        height: 6vh;
+    }
+    .linha10{
+        position: relative;
+        width: 90vw;
+        left: 5vw;
+        height: 0.5vh;
+        top: 1vh;
+    }
+    .textFinally{
+        width: 45vw;
+        height: 30vh;
+        position: relative;
+        top: 3vh;
+        left: 10vw;
+    }
+    .imgStarWars{
+        position: relative;
+        top: 1vh;
+        width: 40vw;
+        height: 10vh;
+    }
+    .textPolicies{
+        position: relative;
+        top: 3vh;
+        font-size: 1.2em;
+        color: white;
+        width: 80vw;
+        height: 30vh;
+    }
+}
